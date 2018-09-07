@@ -3,7 +3,7 @@ const express = require('express'),
   app = express();
 
 //set the port
-app.set('port', 3000);
+app.set('port', env.PORT || 3000);
 
 app.use(function(err, req, res, next) {
   console.error(err.stack);
