@@ -1,9 +1,8 @@
 const express = require('express'),
   path = require('path'),
   app = express();
+const PORT = process.env.PORT || 5000
 
-//set the port
-app.set('port', env.PORT || 3000);
 
 app.use(function(err, req, res, next) {
   console.error(err.stack);
@@ -19,6 +18,4 @@ app.get('/', ((req, res) =>  {
 
 
 // Listen for requests
-const server = app.listen(app.get('port'), function () {
-  console.log('The server is running on http://localhost:' + app.get('port'));
-});
+app.listen(PORT, () => console.log(`Listening on ${ PORT }`));
