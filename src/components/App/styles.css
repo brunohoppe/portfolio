@@ -1,0 +1,50 @@
+#root {
+  display: flex;
+  flex-direction: column;
+}
+.portifolio {
+  display: flex;
+  flex: 1 1 100%;
+  flex-direction: column;
+}
+.header-portifolio {
+  display: flex;
+  flex-direction: column;
+}
+.img-portifolio {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.descricao-portifolio {
+  display: flex;
+  font-family: 'Montserrat';
+  font-size: 12px;
+  flex-direction: column;
+  max-width: 400px;
+  padding: 10px;
+}
+img {
+  margin: 5px;
+  border-radius: 50px;
+}
+.content-portifolio {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+small {
+  font-size: 10px;
+
+}
+b {
+  color: lightseagreen;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+h2 {
+  color: rgb(145, 137, 137);
+}
+.em-breve {
+  font-size: 10px;
+}

@@ -1,0 +1,20 @@
+footer {
+  height: 40px;
+  width: 100%;
+  background-color: #DADADA;
+  color: #1F3F49;
+  font-family: 'Montserrat';
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+}
+.fontsize {
+  font-size: 15px;
+  line-height: 1.5;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
