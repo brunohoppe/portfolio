@@ -1,2 +1,2 @@
-# dashboard
-A simple dashboard to use for scaffold
+# portifolio
+My personal page to show my skills and apps!
