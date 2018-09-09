@@ -68,7 +68,7 @@ function getVisualizations (database, res) {
 module.exports = function(app, db){
   app.get('/visualization', (req, res) => {
     generateVisualizarion(db, req);
-    res.send('Data was taken');
+    res.send(JSON.stringify('Data was taken'));
   });
   app.get('/visualizations', (req, res) => {
     getVisualizations(db, res);
