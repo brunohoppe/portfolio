@@ -12,7 +12,7 @@ class App extends React.Component {
   }
   render() {
     return(
-    <div>
+    <React.Fragment>
       <Content>
         <div className="portifolio">
         <div className="header-portifolio">
@@ -52,7 +52,7 @@ class App extends React.Component {
         </div>
       </Content>
       <Footer />
-    </div>
+    </React.Fragment>
     )
   }
 }
